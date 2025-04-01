@@ -54,6 +54,7 @@ public class Energy : MonoBehaviour
     }
     float normalRatio = energyConsumption / energyProduction;
     energyBar.fillAmount = -normalRatio + 1;
+    // test
   }
   private void Update()
   {
