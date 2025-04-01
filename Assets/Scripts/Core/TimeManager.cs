@@ -21,7 +21,6 @@ public class TimeManager : MonoBehaviour
   }
   private void CalculateSeason()
   {
-    //    _seasonString = "Spring";
     //    objSpringImage.SetActive(true);
     //    objSummerImage.SetActive(false);
     //    objFallImage.SetActive(false);
