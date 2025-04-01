@@ -54,11 +54,9 @@ public class Energy : MonoBehaviour
     }
     float normalRatio = energyConsumption / energyProduction;
     energyBar.fillAmount = -normalRatio + 1;
-    //txtPercentage.text = string.Format("{0:0.00}%", percentage);
   }
   private void Update()
   {
-    // This should only be calculated every time you open up the kardashev scale.
     if ((timer -= Time.deltaTime) <= 0)
     {
       timer = 5f;
