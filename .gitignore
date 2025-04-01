@@ -1,0 +1,4 @@
+echo "*.meta" >> /path/to/your/PublicRepo/.gitignore
+echo "*.csproj" >> /path/to/your/PublicRepo/.gitignore
+echo "Library/" >> /path/to/your/PublicRepo/.gitignore
+echo "Temp/" >> /path/to/your/PublicRepo/.gitignore
