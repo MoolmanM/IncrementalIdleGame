@@ -9,7 +9,6 @@ public class TimeManager : MonoBehaviour
   public static TimeSpan difference;
   public static int day, year, seasonCount;
   public TMP_Text txtGoneFor;
-  //public GameObject objWelcomePanel, objSpringImage, objWinterImage, objSummerImage, objFallImage;
 
   private DateTime _currentDate;
   private long _temp;

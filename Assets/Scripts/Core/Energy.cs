@@ -54,7 +54,6 @@ public class Energy : MonoBehaviour
     }
     float normalRatio = energyConsumption / energyProduction;
     energyBar.fillAmount = -normalRatio + 1;
-    //txtWatts.text = string.Format("{0}W/{1}W", energyConsumption, energyProduction);
     //txtPercentage.text = string.Format("{0:0.00}%", percentage);
   }
   private void Update()
